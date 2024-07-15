@@ -47,6 +47,12 @@
   font-size: 1.5rem;
 }
 
+.newsLink {
+  position: absolute;
+  right: -40px;
+  bottom: -40px;
+}
+
 .list {
   border-bottom: 1px solid var(--color-border-light);
 }
@@ -96,7 +102,6 @@
   font-size: 1rem;
 }
 
-
 @media (max-width: 640px) {
   .top {
     padding:120px 16px;
@@ -127,5 +132,12 @@
   .news {
     width: calc(100% - 32px);
     padding: 16px 24px;
+  }
+
+  .newsLink {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin-top: 16px;
   }
 }
